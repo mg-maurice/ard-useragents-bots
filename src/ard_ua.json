@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/opawg/user-agents-v2/master/schemas/patterns.schema.json",
+  "comments": [
+    "ARD spezifische Einträge, z.B. 'ARD Audiothek'",
+    "Erste Auswertung vor allen anderen Listen, da höchste Priorität und die wenigsten Einträge."
+  ],
+  "entries": [
+    {
+      "name": "ARD Audiothek",
+      "pattern": "[Aa][Rr][Dd]\\s*[Aa]udiothek",
+      "examples": [
+        "ARD Audiothek/2.10.0 (Google Play) Dalvik/2.1.0 (Linux; U; Android 13; SM-A528B Build/TP1A.220624.014)/2.10.0 (Linux;Android 13) ExoPlayerLib/2.19.1"
+      ]
+    }
+  ]
+}
