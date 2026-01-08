@@ -7,10 +7,22 @@
   "entries": [
     {
       "name": "ARD Audiothek",
-      "pattern": "[Aa][Rr][Dd]\\s*[Aa]udiothek",
+      "pattern": "(?i)ard\\s*audiothek",
       "examples": [
         "ARD Audiothek/2.10.0 (Google Play) Dalvik/2.1.0 (Linux; U; Android 13; SM-A528B Build/TP1A.220624.014)/2.10.0 (Linux;Android 13) ExoPlayerLib/2.19.1"
       ]
+    },
+    {
+      "name": "ARD Player",
+      "pattern": "(?i)ard\\s*player",
+      "examples": [
+        "ARDPlayer/Android (v:7.1.0; build:release)"
+      ]
+    },
+    {
+      "name": "ARD Sounds",
+      "pattern": "(?i)ard\\s*sounds",
+      "examples": [ ]
     }
   ]
 }
